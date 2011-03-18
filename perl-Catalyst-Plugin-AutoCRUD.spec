@@ -1,5 +1,5 @@
 %define upstream_name    Catalyst-Plugin-AutoCRUD
-%define upstream_version 1.110471
+%define upstream_version 1.110731
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
