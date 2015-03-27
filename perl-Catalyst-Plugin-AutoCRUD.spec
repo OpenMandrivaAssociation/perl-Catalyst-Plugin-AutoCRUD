@@ -1,9 +1,9 @@
 %define upstream_name    Catalyst-Plugin-AutoCRUD
-%define upstream_version 1.110731
+%define upstream_version 2.131210
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Release:	1
 
 Summary:	Instant AJAX web front-end for DBIx::Class
 License:	GPL+ or Artistic
@@ -59,21 +59,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc README Changes META.yml
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-%changelog
-* Sat Apr 23 2011 Funda Wang <fwang@mandriva.org> 1.110.731-2mdv2011.0
-+ Revision: 657394
-- rebuild for updated spec-helper
-
-* Fri Mar 18 2011 Guillaume Rousse <guillomovitch@mandriva.org> 1.110.731-1
-+ Revision: 646319
-- update to new version 1.110731
-
-* Fri Feb 18 2011 Guillaume Rousse <guillomovitch@mandriva.org> 1.110.471-1
-+ Revision: 638459
-- update to new version 1.110471
-
-* Wed Sep 22 2010 Shlomi Fish <shlomif@mandriva.org> 0.680.0-1mdv2011.0
-+ Revision: 580539
-- import perl-Catalyst-Plugin-AutoCRUD
-

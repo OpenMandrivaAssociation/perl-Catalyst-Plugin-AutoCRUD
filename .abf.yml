@@ -1,2 +1,4 @@
+removed_sources:
+  Catalyst-Plugin-AutoCRUD-1.110731.tar.gz: ec728abd5f0e8d9f17d0f3d1522865163fded43e
 sources:
-  "Catalyst-Plugin-AutoCRUD-1.110731.tar.gz": ec728abd5f0e8d9f17d0f3d1522865163fded43e
+  Catalyst-Plugin-AutoCRUD-2.131210.tar.gz: ce349c09a842c23e0916173a5df43655e3f5f54f
